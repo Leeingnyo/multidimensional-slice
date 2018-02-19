@@ -12,6 +12,8 @@ Use [numjs](https://github.com/nicolaspanel/numjs/) instead of this.
 multipleSlice(array, first-start-index, first-end-index, second-start-index, second-end-index, ...);
 ```
 
+Everything is same as `Array.prototype.slice`. You can use any falsy value (null or undefined) as an argument for picking whole left part.
+
 ## Example
 
 ```js
